@@ -26,32 +26,15 @@ If you have never worked with these tools before, we will walk you through how t
 
 ## Agenda
 
-+ 0:00 - **Welcome and Announcements**:
-  + Make sure you have already installed the prerequisite software before the workshop. It may take a few hours, so get started early.
-+ 0:05 - **Installation Support**
-  + If anyone ran into issues installing the prerequisite software, we will take a few moments to help provide troubleshooting support, before moving on to the exercises
-+ 0:20 - **["Command Line Computing" Exercise](./exercises/command-line-computing/index.md)**:
++ 0:00 - Welcome and Announcements:
+  + Make sure you have already installed the prerequisite software before the workshop. It may take a few hours, so get started early, like a few days in advance.
++ 0:05 - Installation Support:
+  + If anyone ran into issues installing the prerequisite software, we will take a few moments to help provide troubleshooting support, before moving on to the exercises.
++ 0:20 - ["Command Line Computing" Exercise](./exercises/command-line-computing/index.md):
   + Get comfortable navigating the filesystem using `cd` commands.
-+ 0:35 - **["Hello Python" Exercise](./exercises/hello-python/index.md)**:
++ 0:35 - ["Hello Python" Exercise](./exercises/hello-python/index.md):
   + Write some code in a Python script, save it, and run it from the command line.
-+ 0:50 - **Break / Installation Support**
-+ 0:60 - **["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.md)**:
++ 0:50 - Break / Installation Support
++ 0:60 - ["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.md):
   + Download an existing Python app from GitHub, setup a virtual environment to satisfy the application's dependencies, and run the application from the command line.
-
-## Notes and References
-
-Here are some additional reference material and notes about the tools and topics covered during the workshop:
-
-  + Downloading Repositories from GitHub:
-    + [GitHub Desktop Software](./notes/github-desktop.md) (Version Control Tool / Git Client)
-  + Editing Text Files:
-    + [VS Code](./notes/vs-code.md) (Text Editor)
-    + [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
-  + Managing Virtual Environments:
-    + [The `conda` Utility](./notes/clis/conda.md)
-  + Installing Python Packages:
-    + [The `pip` Utility](./notes/clis/pip.md)
-  + Running Python Programs:
-    + [The `python` Utility](./notes/clis/python.md)
-  + Application Security and Customization:
-    + [Environment Variables](./notes/environment-variables.md)
++ 0:90 - Stop

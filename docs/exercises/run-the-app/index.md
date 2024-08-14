@@ -1,7 +1,5 @@
 
-# "Run the App" Exercise (Tic Tac Toe Version)
-
-## Learning Objectives
+# "Run the App" Exercise (Tic Tac Toe)
 
 In this exercise, we'll practice downloading, configuring, and running an existing Python application.
 
