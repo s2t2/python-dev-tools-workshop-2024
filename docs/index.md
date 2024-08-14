@@ -4,12 +4,12 @@ Install and configure tools to help you manage and develop Python programs like 
 
 ## Learning Objectives
 
-1. Use GitHub Desktop software to download existing Python repositories from GitHub.
-2. Utilize local development tools to write and execute Python code for research and software development.
+1. Utilize local development tools to write and execute Python code for research and software development.
+2. Use GitHub Desktop software to download existing Python repositories from GitHub.
 3. Use a text editor to read, write, and save files of Python code.
 4. Create and manage virtual environments using Anaconda.
-5. Manage package installations effectively using pip within a virtual environment
-6. use a requirements file to list package dependencies for a given project.
+5. Manage package installations effectively using Pip within a virtual environment.
+6. Use a requirements file to list package dependencies for a given project.
 7. Discuss security measures needed to protect secret credentials used by research and application code.
 8. Run Python programs on your computer.
 
@@ -19,28 +19,39 @@ This workshop requires the following software:
 
 + GitHub Desktop (requires a GitHub account)
 + VS Code Text Editor
-+ Anaconda
++ Anaconda, Python, and Pip
 + Command Line Application (Terminal on Mac, Git Bash on Windows)
 
-If you have never worked with these tools before, no worries, we will walk you through how to install them. Just follow the [Local Development Environment Setup Guide](./exercises//local-dev-setup/index.md). We will use a "Full Setup" for the exercises below.
+If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Local Development Environment Setup Guide](./prereqs/local-dev-setup/index.md). We will use a "Full Setup" for the exercises in this workshop.
 
-## Activities and Exercises
+## Agenda
 
-  1. [Command Line Computing Exercise](./exercises/command-line-computing/index.md)
-  2. ["Hello World (Python Script)" Exercise](./exercises/hello-world/index.md)
-  3. ["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.md)
++ 0:00 - **Welcome and Announcements**:
+  + Make sure you have already installed the prerequisite software before the workshop. It may take a few hours, so get started early.
++ 0:05 - **Installation Support**
+  + If anyone ran into issues installing the prerequisite software, we will take a few moments to help provide troubleshooting support, before moving on to the exercises
++ 0:20 - **["Command Line Computing" Exercise](./exercises/command-line-computing/index.md)**:
+  + Get comfortable navigating the filesystem using `cd` commands.
++ 0:35 - **["Hello Python" Exercise](./exercises/hello-python/index.md)**:
+  + Write some code in a Python script, save it, and run it from the command line.
++ 0:50 - **Break / Installation Support**
++ 0:60 - **["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.md)**:
+  + Download an existing Python app from GitHub, setup a virtual environment to satisfy the application's dependencies, and run the application from the command line.
 
-## Notes and Resources
+## Notes and References
 
-  + [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
+Here are some additional reference material and notes about the tools and topics covered during the workshop:
+
   + Downloading Repositories from GitHub:
-    + [GitHub Desktop Software](/notes/github-desktop.md) (Version Control Tool / Git Client)
+    + [GitHub Desktop Software](./notes/github-desktop.md) (Version Control Tool / Git Client)
   + Editing Text Files:
     + [VS Code](./notes/vs-code.md) (Text Editor)
+    + [Markdown Guide](https://www.markdownguide.org/basic-syntax/)
   + Managing Virtual Environments:
-    + [The `conda` Utility](./notes/conda.md)
+    + [The `conda` Utility](./notes/clis/conda.md)
   + Installing Python Packages:
-    + [The `pip` Utility](./notes/pip.md)
+    + [The `pip` Utility](./notes/clis/pip.md)
   + Running Python Programs:
-    + [The `python` Utility](./notes/python.md)
-  + [Environment Variables](./notes/environment-variables.md)
+    + [The `python` Utility](./notes/clis/python.md)
+  + Application Security and Customization:
+    + [Environment Variables](./notes/environment-variables.md)

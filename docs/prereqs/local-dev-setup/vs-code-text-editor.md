@@ -1,0 +1,16 @@
+
+
+# Text Editor
+
+The goal is to have access to a text-editing application of choice, which we'll use to create and edit files of Python code (i.e. text files written in the Python Language and ending in the ".py" extension).
+
+We'll be writing Python scripts using software called a ["text editor"](https://idrh.ku.edu/text-editors-and-word-processors). Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text.
+
+There are many text editor options out there, and it seems each developer has their own preference. Regardless of which text editor you choose, you are highly encouraged to configure it with certain plugins, packages and extensions to enhance your experience and save you time.
+
+
+## VS Code
+
+Unless you already have a text editor of choice, install [VS Code](https://code.visualstudio.com/).
+
+After installing VS Code, take some time to explore the settings and available extensions. Optionally see the [VS Code Configuration Guide](./vs-code-config.md) for more details.

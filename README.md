@@ -17,7 +17,7 @@
 **Required Software:**
 + GitHub Desktop (requires a GitHub account)
 + VS Code Text Editor
-+ Anaconda
++ Anaconda, Python, and Pip
 + Command Line Application (Terminal on Mac, Git Bash on Windows)
 
 **Content**: Go to [Workshop Content](./docs/index.md).

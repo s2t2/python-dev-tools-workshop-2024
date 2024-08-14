@@ -1,0 +1,68 @@
+
+# Anaconda, Python, and Pip
+
+The goal is to have access to command-line tools for running Python programs and installing Python packages.
+
+The Python programming language evolves over time as new features are added and new versions are released. For this workshop, we'll want to be running any Python version 3.7 or greater. By default, Mac computers have a super old version of Python (2.x) we don't want to mess with, and Windows computers don't have any version of Python installed. So we'll need to install Python separately.
+
+Rather than install a single specific version of Python, and use that same version for all projects, sometimes different projects in a professional setting will require different minor versions of Python. So we'll use a tool called Anaconda to manage project-specific "virtual environments". Each virtual environment is like a separate work space with a different version of Python and combination of third-party Python packages installed inside.
+
+## Installation
+
+Unless it is already installed, [install Anaconda](https://www.anaconda.com/download) for either Mac or Windows.
+
+## Success Criteria
+
+If successful, you should be able to run the commands below.
+
+
+Check what version of `conda` is installed:
+
+```sh
+conda --version
+```
+
+List any existing virtual environments (hopefully you see "base"):
+
+```sh
+conda info --envs
+```
+
+Create a new virtual environment, for example one called "my-first-env", with a specific version of Python:
+
+```sh
+conda create -n my-first-env python=3.8
+```
+
+Activate a virtual environment to start using it:
+
+```
+conda activate my-first-env
+```
+
+See which version of Python and Pip are installed in the active environment:
+
+```sh
+python --version
+pip --version
+```
+
+List Python packages installed in the active environment:
+
+```sh
+pip list
+```
+
+## Troubleshooting
+
+## Anaconda Initialization
+
+When using `conda` to activate a virtual environment for the first time, when prompted to do so, Windows Git Bash users may need to run `conda init bash`, and Mac Zsh profile users may need to run `conda init zsh`. If you do, close your command-line application and open another window for the changes to take affect, then try again.
+
+## Bad Anaconda Installation
+
+If you try to run a `conda` command, and you see an error like **"conda: command not found"**, it means there's something wrong with your installation.
+
+It's OK. Feel free to reach out to an instructor and ask for help. See also these [known troubleshooting remedies](https://github.com/prof-rossetti/intro-to-python/issues/13).
+
+We will probably have to ask `where anaconda` in the Anaconda Prompt program to learn where your Anaconda installation resides, then issue a corresponding command like `~/anaconda3/Scripts/conda init bash` in Git Bash to fix the issue. Then close and re-open Git Bash for the changes to take effect.
