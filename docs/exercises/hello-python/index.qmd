@@ -1,0 +1,58 @@
+# "Hello Python" Exercise
+
+In this exercise, we'll practice using the local development environment to create, edit, and execute a simple Python program.
+
+## Instructions
+
+### Python Shell
+
+First we will explore the Python shell, which will be able to execute single expressions of Python code. We might use the Python interpreter in practice to quickly test out short snippets of code.
+
+Open an interactive Python interpreter:
+
+```sh
+python -i
+```
+
+You will be able to execute Python expressions, such as the following:
+
+```python
+x = 2 + 2
+
+print(x)
+```
+
+Press enter after each expression.
+
+When done, type `exit()` and press enter to quit the interpreter, and return to the command line.
+
+### Python Scripts
+
+Some limitations of the Python interpreter are that it is harder to execute multi-line expressions, and after we quit the interpreter the code we wrote is lost.
+
+In order to write longer Python programs, and save some code for later, we will use a Python script. A Python script is a text file containing Python code, where the file extension is ".py".
+
+Exercise:
+
+  1. Use your text editor to create and save a new file on the Desktop called "my_script.py".
+  2. Use your text editor to write some Python code (like the example code below) in the file. Remember to save the file (anytime before running)!
+  1. From your command-line application, ensure your Anaconda "base" environment is active.
+  2. From your command-line application, execute the file (`python ~/Desktop/my_script.py`) to see its output.
+
+
+Example Python code:
+
+```{python}
+# this is the "my_script.py" file located on the Desktop...
+
+# this is a comment
+
+print("HELLO WORLD!")
+
+x = 2 + 2
+print(x)
+```
+
+## Success Criteria
+
+Once you see the printed messages in your command-line application, you have succeeded. Edit the file (by changing the message or the numbers), save it again, and run it again.
