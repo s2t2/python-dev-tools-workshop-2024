@@ -36,7 +36,7 @@ conda create -n my-first-env python=3.8
 
 Activate a virtual environment to start using it:
 
-```
+```sh
 conda activate my-first-env
 ```
 
@@ -55,11 +55,11 @@ pip list
 
 ## Troubleshooting
 
-## Anaconda Initialization
+### Anaconda Initialization
 
 When using `conda` to activate a virtual environment for the first time, when prompted to do so, Windows Git Bash users may need to run `conda init bash`, and Mac Zsh profile users may need to run `conda init zsh`. If you do, close your command-line application and open another window for the changes to take affect, then try again.
 
-## Bad Anaconda Installation
+### Bad Anaconda Installation
 
 If you try to run a `conda` command, and you see an error like **"conda: command not found"**, it means there's something wrong with your installation.
 

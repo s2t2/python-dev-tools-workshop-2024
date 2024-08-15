@@ -3,6 +3,7 @@
 Before we start learning about Python or software development, it will be helpful for us to achieve a basic level of familiarity with a command-line application. We use the command-line to navigate the computer's filesystem, execute Python scripts, and perform other tasks using command-line utilities (CLIs).
 
 Commands may differ based on which operating system and command-line application you're using, but we should encouraged to learn the prevalent "unix-style" commands:
+
   + On Mac OS, the default Terminal application will allow students to use unix-style commands.
   + On Windows OS, the default Command Prompt application uses different commands, but installing the Git Bash application will allow students to use unix-style commands.
 
@@ -98,7 +99,7 @@ cd my_folder
 Create one or more files in the new directory you just created:
 
 ```sh
-touch README.qmd
+touch README.md
 touch index.html
 touch my_data.csv
 touch my_message.txt
@@ -116,7 +117,7 @@ Open a file in a text editor like VS Code (then edit it, and save it):
 code my_message.txt
 ```
 
-> NOTE: Mac users may need to first configure the `code` command by following these [VS Code shell command setup instructions](https://github.com/prof-rossetti/intro-to-python/blob/main/notes/devtools/vs-code.qmd#shell-commands)
+> NOTE: Mac users may need to first configure the `code` command by following these [VS Code shell command setup instructions](../../prereqs/local-dev-setup/vs-code-config.qmd#shell-commands)
 
 Display file contents:
 

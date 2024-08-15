@@ -9,6 +9,8 @@ In this workshop we will use GitHub Desktop to download repositories from GitHub
 
 ## GitHub Desktop
 
+### Installation and Configuration
+
 Beginners are encouraged to install [GitHub Desktop software](https://desktop.github.com/), for Mac or Windows.
 
 > NOTE: GitHub Desktop may require the Git command line utility to also be installed on your computer (see below).
@@ -17,13 +19,20 @@ After installing, you will need to login with your GitHub account credentials. S
 
 After installing, from the settings, choose VS Code as your default text editor, and either Terminal (Mac) or Git Bash (Windows) as your default command-line utility.
 
+### Success Criteria
+
+You should be able to open the GitHub Desktop application, and visit the settings to see you are logged in with your GitHub account, and also see the desired tools selected in the integration settings.
 
 ## Git CLI
+
+### Installation and Configuration
 
 Installing Git depends on your operating system:
 
   + Windows users who have [installed Git Bash](./terminal.qmd) will have satisfied the Git installation requirement.
   + Mac users may find that a system version of Git is already installed, and that might be sufficient to satisfy the Git installation requirement. Any Mac users who encounter errors or who desire a newer version of Git can install Git from https://git-scm.com/downloads, or consider [installing Homebrew](../../notes/clis/brew.qmd), and using Homebrew to install Git (`brew install git`).
+
+### Success Criteria
 
 Verifying Git has been installed:
 

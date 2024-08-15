@@ -42,11 +42,10 @@ Exercise:
 
 Example Python code:
 
-```py
+```{python}
+# this is the "my_script.py" file located on the Desktop...
 
-# this is the "my_script.py" file...
-
-# This is a comment
+# this is a comment
 
 print("HELLO WORLD!")
 

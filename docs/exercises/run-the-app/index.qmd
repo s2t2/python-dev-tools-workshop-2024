@@ -9,7 +9,7 @@ We'll discuss topics related to command line computing, Anaconda virtual environ
 
   1. Visit this ["Tic Tac Toe" repository](https://github.com/s2t2/tic-tac-toe-py) on GitHub. This repository contains a simple command-line game. We'll refer to this repository as the "upstream" remote repository.
   2. Click the "Fork" button (top right of the page) to make a copy of the repo under your own control. We'll refer to your forked copy as the "origin" remote repository.
-  3. Follow the instructions in the repository's "README.qmd" file to install, setup and run the Python code contained inside:
+  3. Follow the instructions in the repository's "README.md" file to install, setup and run the Python code contained inside:
      1. Click the green button on GitHub to "Clone", or download, your remote fork. Choose the GitHub Desktop option, selecting the "for my own purposes" option, if prompted by GitHub Desktop. When prompted where to download it, choose a familiar location like the Desktop. We'll refer to this as the "local repository".
      2. Use the finder or file explorer to verify you have downloaded the files and they exist, for example on your Desktop.
      3. Use the command-line to navigate to the local repository (using one or more `cd` commands).

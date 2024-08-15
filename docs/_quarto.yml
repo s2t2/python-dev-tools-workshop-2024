@@ -13,6 +13,7 @@ project:
     # https://github.com/quarto-dev/quarto-cli/discussions/7312#discussioncomment-7345228
     - prereqs/local-dev-setup/terminal-config.qmd
     - prereqs/local-dev-setup/vs-code-config.qmd
+    - exercises/run-the-app/troubleshooting.qmd
 
 
 # https://quarto.org/docs/books/
@@ -122,6 +123,7 @@ format:
       dark: darkly
     css: styles.css
     number-sections: false
+    from: markdown+emoji # enable emojis
 
 
   #pdf:
