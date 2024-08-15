@@ -6,6 +6,15 @@ project:
     browser: true
 
 
+  render:
+    # be able to link to these other hidden documents not included in the sidebar contents
+    # this doesn't work though???
+    # https://quarto.org/docs/projects/quarto-projects.html#render-targets
+    # https://github.com/quarto-dev/quarto-cli/discussions/7312#discussioncomment-7345228
+    - prereqs/local-dev-setup/terminal-config.qmd
+    - prereqs/local-dev-setup/vs-code-config.qmd
+
+
 # https://quarto.org/docs/books/
 # https://quarto.org/docs/reference/projects/books.html
 book:
@@ -75,6 +84,8 @@ book:
         - prereqs/local-dev-setup/anaconda.qmd
         - prereqs/local-dev-setup/git-client.qmd
 
+
+
     - "-------------"
 
     - part: "Workshop Exercises"
@@ -86,9 +97,12 @@ book:
         - href: exercises/run-the-app/index.qmd
           text: Run the App (Tic Tac Toe)
 
+
+    - "-------------"
+
+
   #appendices:
-  #  - appendix.qmd
-  #  - another-appendix.qmd
+
 
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"
@@ -108,6 +122,7 @@ format:
       dark: darkly
     css: styles.css
     number-sections: false
+
 
   #pdf:
   #  documentclass: scrreprt

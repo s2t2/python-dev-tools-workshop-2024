@@ -11,10 +11,9 @@ Install and configure tools to help you manage and develop Python programs like 
 2. Use GitHub Desktop software to download existing Python repositories from GitHub.
 3. Use a text editor to read, write, and save files of Python code.
 4. Create and manage virtual environments using Anaconda.
-5. Manage package installations effectively using Pip within a virtual environment.
-6. Use a requirements file to list package dependencies for a given project.
+5. Manage package installations effectively using Pip within a virtual environment, and practice using a requirements file to list package dependencies for a given project.
+6. Run Python programs on your computer.
 7. Discuss security measures needed to protect secret credentials used by research and application code.
-8. Run Python programs on your computer.
 
 ## Prerequisites
 
