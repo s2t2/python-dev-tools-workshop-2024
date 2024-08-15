@@ -98,7 +98,7 @@ cd my_folder
 Create one or more files in the new directory you just created:
 
 ```sh
-touch README.md
+touch README.qmd
 touch index.html
 touch my_data.csv
 touch my_message.txt
@@ -116,7 +116,7 @@ Open a file in a text editor like VS Code (then edit it, and save it):
 code my_message.txt
 ```
 
-> NOTE: Mac users may need to first configure the `code` command by following these [VS Code shell command setup instructions](https://github.com/prof-rossetti/intro-to-python/blob/main/notes/devtools/vs-code.md#shell-commands)
+> NOTE: Mac users may need to first configure the `code` command by following these [VS Code shell command setup instructions](https://github.com/prof-rossetti/intro-to-python/blob/main/notes/devtools/vs-code.qmd#shell-commands)
 
 Display file contents:
 

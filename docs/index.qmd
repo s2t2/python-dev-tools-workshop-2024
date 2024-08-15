@@ -1,4 +1,7 @@
+
+:::{.content-hidden when-format="html" when-page="index"}
 # Local Development Tools for Python Programming
+:::
 
 Install and configure tools to help you manage and develop Python programs like a professional. Attendees will become familiar with development tools such as a text editor and command line application.
 
@@ -22,7 +25,7 @@ This workshop requires the following software:
 + Anaconda, Python, and Pip
 + Command Line Application (Terminal on Mac, Git Bash on Windows)
 
-If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Local Development Environment Setup Guide](./prereqs/local-dev-setup/index.md). We will use a "Full Setup" for the exercises in this workshop.
+If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Local Development Environment Setup Guide](./prereqs/local-dev-setup/index.qmd). We will use a "Full Setup" for the exercises in this workshop.
 
 ## Agenda
 
@@ -30,11 +33,11 @@ If you have never worked with these tools before, we will walk you through how t
   + Make sure you have already installed the prerequisite software before the workshop. It may take a few hours, so get started early, like a few days in advance.
 + 0:05 - Installation Support:
   + If anyone ran into issues installing the prerequisite software, we will take a few moments to help provide troubleshooting support, before moving on to the exercises.
-+ 0:20 - ["Command Line Computing" Exercise](./exercises/command-line-computing/index.md):
++ 0:20 - ["Command Line Computing" Exercise](./exercises/command-line-computing/index.qmd):
   + Get comfortable navigating the filesystem using `cd` commands.
-+ 0:35 - ["Hello Python" Exercise](./exercises/hello-python/index.md):
++ 0:35 - ["Hello Python" Exercise](./exercises/hello-python/index.qmd):
   + Write some code in a Python script, save it, and run it from the command line.
 + 0:50 - Break / Installation Support
-+ 0:60 - ["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.md):
++ 0:60 - ["Run the App (Tic Tac Toe)" Exercise](./exercises/run-the-app/index.qmd):
   + Download an existing Python app from GitHub, setup a virtual environment to satisfy the application's dependencies, and run the application from the command line.
 + 0:90 - Stop

@@ -13,4 +13,4 @@ There are many text editor options out there, and it seems each developer has th
 
 Unless you already have a text editor of choice, install [VS Code](https://code.visualstudio.com/).
 
-After installing VS Code, take some time to explore the settings and available extensions. Optionally see the [VS Code Configuration Guide](./vs-code-config.md) for more details.
+After installing VS Code, take some time to explore the settings and available extensions. Optionally see the [VS Code Configuration Guide](./vs-code-config.qmd) for more details.

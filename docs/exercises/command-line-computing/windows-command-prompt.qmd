@@ -75,7 +75,7 @@ cd my_folder # first re-create this directory if it doesn't exist, else this wil
 Create one or more files:
 
 ```sh
-type nul > README.md
+type nul > README.qmd
 type nul > index.html
 type nul > my_data.csv
 type nul > my_message.txt
