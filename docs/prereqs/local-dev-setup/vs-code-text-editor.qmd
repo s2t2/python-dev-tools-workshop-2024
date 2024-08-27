@@ -4,7 +4,7 @@
 
 The goal is to have access to a text-editing application of choice, which we'll use to create and edit files of Python code (i.e. text files written in the Python Language and ending in the ".py" extension).
 
-We'll be writing Python scripts using software called a ["text editor"](https://idrh.ku.edu/text-editors-and-word-processors). Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text.
+We'll be writing Python scripts using software called a **text editor**. Similar to word processing software like Microsoft Word, text editors allow us to write and save documents of text. But unlike word processors, which save extra metadata (e.g. styles and formatting) along with the underling text, text editors allow us to save files comprised of just text.
 
 There are many text editor options out there, and it seems each developer has their own preference. Regardless of which text editor you choose, you are highly encouraged to configure it with certain plugins, packages and extensions to enhance your experience and save you time.
 
