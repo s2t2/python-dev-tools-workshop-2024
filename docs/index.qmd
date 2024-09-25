@@ -17,6 +17,8 @@ Install and configure tools to help you manage and develop Python programs like 
 
 ## Prerequisites
 
+### Software
+
 This workshop requires the following software:
 
 + GitHub Desktop (requires a GitHub account)
@@ -25,6 +27,11 @@ This workshop requires the following software:
 + Command Line Application (Terminal on Mac, Git Bash on Windows)
 
 If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Local Development Environment Setup Guide](./prereqs/local-dev-setup/index.qmd). We will use a "Full Setup" for the exercises in this workshop.
+
+### Chat
+
+Create an account with the [GW Coder's Slack](https://gwucoders.slack.com/) organization and join the `#ospo-workshops` channel, where we can chat about today's workshop, share links and resources, etc.
+
 
 ## Agenda
 
