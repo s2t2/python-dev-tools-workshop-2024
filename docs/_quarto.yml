@@ -13,7 +13,6 @@ project:
     # https://github.com/quarto-dev/quarto-cli/discussions/7312#discussioncomment-7345228
     - prereqs/local-dev-setup/terminal-config.qmd
     - prereqs/local-dev-setup/vs-code-config.qmd
-    - exercises/run-the-app/troubleshooting.qmd
     - notes/clis/brew.qmd
 
 
@@ -107,6 +106,8 @@ book:
     - prereqs/local-dev-setup/terminal-config.qmd
     - href: prereqs/local-dev-setup/vs-code-config.qmd
       text: "VS Code Configuration"
+    - href: notes/clis/brew.qmd
+      text: "Homebrew Package Manager (Mac OS)"
 
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"
