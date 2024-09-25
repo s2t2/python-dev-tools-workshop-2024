@@ -68,7 +68,7 @@ These are some of the author's personal VS Code configurations, for your referen
 
 Use the command palette and start typing "snippets" to find the "Preferences > Configure User Snippets" setting which should yield a snippets JSON file. Feel free to update yours to include any of these helpful Python snippets:
 
-```
+```json
 {
 	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
 	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
@@ -137,7 +137,7 @@ Use the command palette and start typing "snippets" to find the "Preferences > C
 }
 ```
 
-See also: https://code.visualstudio.com/docs/editor/userdefinedsnippets
+See also: <https://code.visualstudio.com/docs/editor/userdefinedsnippets>.
 
 
 
