@@ -11,13 +11,22 @@ Additional References:
 
   + [Intro to the Command-Line - Mozilla](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
 
+## Walkthrough Video
+
+{{< video https://youtu.be/E6ezORXPBvg
+    title= "Hello, Version Control Exercise Walkthrough"
+>}}
+
 ## Instructions
 
 Open the Terminal application (Mac) or the Git Bash application (Windows).
 
 After typing each of the commands below, press "enter" to execute it.
 
-Optionally clear previous terminal output at any time by pressing "command + k", or by typing `clear` and pressing "enter".
+> NOTE: You can copy and paste the commands, however on Git Bash you will need to right click to copy or paste, as keyboard shortcuts like "control + c" or "control + v" don't work on Git Bash.
+
+> NOTE: You can optionally clear previous terminal output at any time by pressing "command + k" (Mac), or by typing `clear` and pressing "enter".
+
 
 ### Current User
 
@@ -150,6 +159,8 @@ cat ~/Desktop/my_folder/my_message.txt | clip
 
 # ... then just paste as you normally would after copying some text
 ```
+
+
 
 
 <hr>
