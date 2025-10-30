@@ -128,6 +128,8 @@ code my_message.txt
 
 > NOTE: Mac users may need to first configure the `code` command by following these [VS Code shell command setup instructions](../../prereqs/local-dev-setup/vs-code-config.qmd#shell-commands)
 
+> NOTE: if the `code` command doesn't work for you, no worries - feel free to move on.
+
 Display file contents:
 
 ```sh
