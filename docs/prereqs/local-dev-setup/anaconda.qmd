@@ -9,7 +9,7 @@ Rather than install a single specific version of Python, and use that same versi
 
 ## Installation
 
-Unless it is already installed, [install Anaconda](https://www.anaconda.com/download) for either Mac or Windows.
+Unless it is already installed, [install Anaconda](https://www.anaconda.com/download) (Anaconda Distribution), for either Mac or Windows.
 
 ## Success Criteria
 
